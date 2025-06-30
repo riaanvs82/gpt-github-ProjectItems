@@ -1,0 +1,14 @@
+# Ignore environment files (secrets)
+.env
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore suggested output files (optional)
+issues.json

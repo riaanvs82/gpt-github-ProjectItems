@@ -1,0 +1,273 @@
+[
+  {
+    "title": "Write README.md",
+    "body": "### Issue Description\n\nCreate README file with project goals, system overview, and team responsibilities",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "title": "Research Diagram Tools",
+    "body": "### Issue Description\n\nInvestigate tools like draw.io, diagrams.net, or Mermaid for creating system architecture and control flow diagrams",
+    "labels": [
+      "research",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Create System Architecture Diagram",
+    "body": "### Issue Description\n\nDraft a visual representation of the system layout including sensors, logic units, motors, and power components",
+    "labels": [
+      "technical",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Draft Control Flow",
+    "body": "### Issue Description\n\nOutline the communication flow between Pixhawk, Arduino, and Motor Controller",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Document Challenges",
+    "body": "### Issue Description\n\nList known challenges and unknowns such as Pixhawk to Arduino communication and hall feedback handling",
+    "labels": [
+      "technical",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Compile BOM",
+    "body": "### Issue Description\n\nGather a complete Bill of Materials with links, quantities, and prices for all project components",
+    "labels": []
+  },
+  {
+    "title": "Estimate Current Draw",
+    "body": "### Issue Description\n\nCalculate the expected current draw for each component including motors, Arduino, and Pixhawk",
+    "labels": [
+      "technical",
+      "research"
+    ]
+  },
+  {
+    "title": "Research Wiring Needs",
+    "body": "### Issue Description\n\nInvestigate requirements for wiring such as connectors, heat shrink, fuses, relays, or PCBs",
+    "labels": [
+      "research"
+    ]
+  },
+  {
+    "title": "Add Items to Part Tracking",
+    "body": "### Issue Description\n\nUpdate a part-tracking spreadsheet with all necessary hardware components",
+    "labels": []
+  },
+  {
+    "title": "Order Initial Hardware",
+    "body": "### Issue Description\n\nProcure the initial set of hardware components for testing and development",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Design Chassis/Platform",
+    "body": "### Issue Description\n\nCreate a design for the chassis or platform to mount all project components",
+    "labels": []
+  },
+  {
+    "title": "Wire Motor Controller",
+    "body": "### Issue Description\n\nConnect the motor controller to the hoverboard motors and test the connections",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Connect Hall Sensor",
+    "body": "### Issue Description\n\nVerify the wiring connections for hall sensor feedback from the motors",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Design Wiring Layout",
+    "body": "### Issue Description\n\nPlan the wiring layout between Arduino and motor controller for efficient communication",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Plan Power Design",
+    "body": "### Issue Description\n\nDocument the power system design including battery specifications, voltage regulation, and power switches",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "title": "Document Wiring Schematic",
+    "body": "### Issue Description\n\nCreate a schematic or diagram documenting the wiring connections in the system",
+    "labels": [
+      "documentation"
+    ]
+  },
+  {
+    "title": "Write Arduino Motor Control Sketch",
+    "body": "### Issue Description\n\nDevelop a minimal Arduino sketch to control a single motor with DIR, SPEED, and BRAKE signals",
+    "labels": [
+      "technical",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Utilize Hall Sensor Feedback",
+    "body": "### Issue Description\n\nIncorporate hall sensor feedback to calculate RPM and log data through serial communication",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Refactor Motor Control Sketch",
+    "body": "### Issue Description\n\nModify the Arduino sketch to independently control two motors using hall sensor feedback",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Add Serial Debug Logging",
+    "body": "### Issue Description\n\nImplement serial debug logging for motor control signals and RPM values",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Document Command Interface",
+    "body": "### Issue Description\n\nCreate documentation detailing the command interface between Arduino and motor controller",
+    "labels": [
+      "technical",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Research Communication Options",
+    "body": "### Issue Description\n\nInvestigate communication options like PWM, MAVLink serial, or SBUS for Pixhawk to Arduino integration",
+    "labels": [
+      "technical",
+      "research"
+    ]
+  },
+  {
+    "title": "Configure Pixhawk PWM Output",
+    "body": "### Issue Description\n\nSet up Pixhawk to output PWM signals compatible with Arduino for motor control",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Read Pixhawk PWM on Arduino",
+    "body": "### Issue Description\n\nRead and interpret Pixhawk PWM signals on the Arduino to map to motor speed/direction control",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Test Motor Response to Pixhawk",
+    "body": "### Issue Description\n\nVerify motor response to RC override commands from the Pixhawk flight controller",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Measure Response Delay",
+    "body": "### Issue Description\n\nMeasure the delay between Pixhawk input commands and Arduino output control signals",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Connect RC Receiver to Pixhawk",
+    "body": "### Issue Description\n\nEstablish a connection between the RC receiver and Pixhawk using PPM or SBUS input",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Calibrate RC Channels",
+    "body": "### Issue Description\n\nPerform calibration of RC channels in QGroundControl or Mission Planner for accurate control",
+    "labels": []
+  },
+  {
+    "title": "Verify Channel Mapping",
+    "body": "### Issue Description\n\nCheck and confirm the mapping of RC channels for pitch, roll, and throttle control",
+    "labels": []
+  },
+  {
+    "title": "Check Signal Passthrough",
+    "body": "### Issue Description\n\nEnsure signal passthrough from RC receiver through Pixhawk to Arduino for motor control",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Mount GPS Antenna",
+    "body": "### Issue Description\n\nSecurely mount the GPS antenna on the chassis and connect it to the Pixhawk flight controller",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Acquire GPS Lock",
+    "body": "### Issue Description\n\nObtain GPS lock and log telemetry data in Mission Planner for accurate positioning",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Simulate Autonomous Mission",
+    "body": "### Issue Description\n\nSet up a simple autonomous mission with GPS waypoints to test navigation functionality",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Prevent Arduino Interference",
+    "body": "### Issue Description\n\nEnsure the Arduino system does not interfere with the Pixhawk's autonomous mission execution",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Evaluate Follow Mode Options",
+    "body": "### Issue Description\n\nAssess different sensor options like Bluetooth RSSI, GPS beacon, or IR tracking for follow mode",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Test Sensor Data Quality",
+    "body": "### Issue Description\n\nTest the quality of sensor data in indoor conditions to determine suitability for follow mode",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Write Beacon Sensor Code",
+    "body": "### Issue Description\n\nDevelop Arduino code to interpret beacon sensor signals such as distance or direction",
+    "labels": [
+      "technical",
+      "documentation"
+    ]
+  },
+  {
+    "title": "Translate Signal to Motor Control",
+    "body": "### Issue Description\n\nConvert beacon sensor signals into motor speed and direction adjustments for follow mode",
+    "labels": [
+      "technical"
+    ]
+  },
+  {
+    "title": "Perform Follow Me Tests",
+    "body": "### Issue Description\n\nConduct controlled indoor tests of the 'follow me' functionality using a dummy beacon",
+    "labels": [
+      "technical"
+    ]
+  }
+]

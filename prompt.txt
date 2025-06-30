@@ -1,0 +1,20 @@
+You are a senior embedded systems project manager. Based on the following project specification, generate a detailed list of achievable GitLab issues. Each issue should:
+- Be very specific and small enough to complete in less than a day
+- Clearly map to one of the project’s goals or milestones
+- Include both technical (code, testing, wiring, integration) and non-technical tasks (docs, planning, setup)
+- Use a short 'title' and a longer 'description'
+
+Instructions:
+- Break down each milestone into 5 to 7 concrete, small, achievable issues.
+- Create issues for the entire project
+- Carefully consider every milestone and goal described in the specification.
+- Each issue must be distinct and actionable.
+- Do not summarize the whole milestone into one issue.
+- Use verbs like 'Write', 'Test', 'Wire', 'Verify', 'Install', 'Measure', 'Document'
+- Avoid vague tasks like 'Set up system' or 'Plan follow mode'
+- Return only a JSON array with objects containing 'title' and 'description'
+
+Project Specification:
+{spec_text}
+
+Respond ONLY with the JSON array. Do NOT include markdown or explanations.
